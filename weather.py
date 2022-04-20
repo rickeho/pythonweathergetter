@@ -29,8 +29,8 @@ except FileNotFoundError:
   print("Saved API Key in config.json")
 
 
-lat = '36.972837'
-lon = '-122.0309346'
+lat = '36.974117'
+lon = '-122.030792'
 
 query = {'lat':lat, 'lon':lon, 'appid':apikey}
 response = requests.get('https://api.openweathermap.org/data/2.5/weather', params=query)
